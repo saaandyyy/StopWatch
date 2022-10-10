@@ -1,9 +1,11 @@
+/* Css apply for the whole body */
 body{
     background-color: blueviolet;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     height: 100%;
 }
 
+/* This is for the outer box */
 .box {
     width: 800px;
     margin: 30px auto;
@@ -11,6 +13,7 @@ body{
     text-align: center;
 }
 
+/* This is for h1, h2, h3 tag */
 h1, h2, h3 {
     font-family: sans-serif;
     font-weight: 100;
@@ -18,10 +21,12 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+/* Setting the font size of second and MilliSecond Time */
 #second, #milliSec {
     font-size: 2em;
 }
 
+/* Css on Button Start, Stop and Reset */
 button {
     border-radius: 5px;
     background-color: blueviolet;
@@ -37,6 +42,7 @@ button {
     outline: none;
 }
 
+/* Setting hover css style on button */
 button:hover {
     transition: all 0.5s ease-in-out;
     background-color: white;

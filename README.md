@@ -1,4 +1,1 @@
-# StopWatch
-
-jsso
-
+# StopWatch Project
